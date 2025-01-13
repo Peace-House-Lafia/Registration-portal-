@@ -285,14 +285,18 @@
     display: flex; 
     flex-wrap:wrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding:20px;
     overflow-x: hidden;
   }
   .bg-slide{
-    background-size: contain;
+display: none;
+background-size: contain;
     width :100vw;	
   }
   div, nav {
+	  width: 100vh;
     
   }
 }
