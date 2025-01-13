@@ -31,6 +31,6 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     localStorage.setItem(uniqueId, JSON.stringify(userData));
     localStorage.setItem("currentUser", uniqueId);
   
-    window.location.href = "/success.html";
+    window.location.href = "success.html";
   });
   
