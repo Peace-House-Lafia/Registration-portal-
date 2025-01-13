@@ -2,6 +2,7 @@
 *, body, html{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background-color: white;
 }
 
 /* this is my navbar */
@@ -273,3 +274,28 @@
   button:hover {
     background-color: #029433;
   }
+
+
+/* For smaller screens, like tablets and phones */
+@media (max-width: 768px) {
+  body {
+    background-color: lightgray;
+    font-size: 0.9rem;
+  }
+
+  div {
+    padding: 10px;
+  }
+}
+
+/* For very small screens (e.g., under 480px) */
+@media (max-width: 480px) {
+  body {
+    background-color: lightgrey;
+    font-size: 0.8rem;
+  }
+
+  div {
+    margin: 5px;
+  }
+}
