@@ -236,7 +236,7 @@
  }
  .sub-personalize{
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
  }
  .loging, .code, .upcoming, .Register{
@@ -247,7 +247,6 @@
    border-radius: 1rem;
    background-color: white;
    border-color: wheat;
-   width: 50%;
  }
 
  .img-p1,.img-p2, .img-p3, .img-p4{
