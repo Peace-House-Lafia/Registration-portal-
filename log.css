@@ -83,7 +83,7 @@ input, button, select {
 
 /* For smaller screens, like tablets and phones */
 @media (max-width: 768px) {
-  body {
+  body, html {
     background-color: #fff;
     font-size: 0.9rem;
   }
@@ -95,7 +95,7 @@ input, button, select {
 
 /* For very small screens (e.g., under 480px) */
 @media (max-width: 480px) {
-  body {
+  body, html {
     background-color: #fff;
     font-size: 0.8rem;
   }
