@@ -150,11 +150,6 @@ body {
 }
 
   /* My portal  */
-/* General styles for large screens */
-body {
-  background-color: white;
-  font-size: 1rem;
-}
 
 /* For smaller screens, like tablets and phones */
 @media (max-width: 768px) {
