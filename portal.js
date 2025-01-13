@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
       document.getElementById("portalSurname").innerText = userData.surname
       document.getElementById("portalUserId").innerText = userData.uniqueId;
     } else {
-      window.location.href = "/login.html";
+      window.location.href = "login.html";
     }
   });
   
