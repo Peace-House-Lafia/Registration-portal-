@@ -290,9 +290,10 @@
     overflow-x: hidden;
   }
   .bg-slide{
-display: none;
-background-size: contain;
-    width :100vw;	
+background-size: cover;
+background-position: center;
+background-repeat: none;
+width: 100%;	
   }
   div, nav {
 	
