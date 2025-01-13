@@ -80,3 +80,27 @@ input, button, select {
   color: #006622;
     
   }
+
+/* For smaller screens, like tablets and phones */
+@media (max-width: 768px) {
+  body {
+    background-color: #fff;
+    font-size: 0.9rem;
+  }
+
+  div {
+    padding: 10px;
+  }
+}
+
+/* For very small screens (e.g., under 480px) */
+@media (max-width: 480px) {
+  body {
+    background-color: #fff;
+    font-size: 0.8rem;
+  }
+
+  div {
+    margin: 5px;
+  }
+}
