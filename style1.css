@@ -2,8 +2,6 @@
 *, body, html{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    width: 100vw;
-    overflow-x: hidden;
 
 }
 
@@ -284,13 +282,12 @@
   body, html, .sub-personalize {
     background-color: lightgray;
     font-size: 0.9rem;
-    width:100%vw;
+    width:100%;
     display: flex; 
     flex-wrap:wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:20px;
     overflow-x: hidden;
   }
   .bg-slide{
@@ -300,6 +297,7 @@ background-size: contain;
   }
   div, nav {
 	  width: 100vh;
+	  padding: 10px;
     
   }
 }
