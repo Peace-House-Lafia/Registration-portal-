@@ -287,8 +287,7 @@
     background-size: contain;
     width :100%vw;	
   }
-  div {
-    padding: 10px; 
+  div, nav {
     display: flex; 
     flex-wrap:wrap;
     flex-direction: column;
