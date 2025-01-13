@@ -279,12 +279,11 @@
 
 /* For smaller screens, like tablets and phones */
 @media (max-width: 768px) {
-  body, html, .sub-personalize {
+  body, html, {
     background-color: lightgray;
     font-size: 0.9rem;
     width:100%;
     display: flex; 
-    flex-wrap:wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -296,8 +295,7 @@ background-size: contain;
     width :100vw;	
   }
   div, nav {
-	  width: 100vh;
-	  padding: 10px;
+	
     
   }
 }
